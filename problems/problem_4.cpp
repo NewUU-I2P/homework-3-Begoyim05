@@ -7,7 +7,7 @@ int main(){
     int g;
     cin>>addres;
     if (addres=="FFFFFFFFFFFF"){
-        cout<<" this address is broadcast\n";
+        cout<<" this address is Broadcast\n";
         exit(0);
     }
     char l=addres[0];
@@ -27,10 +27,10 @@ int main(){
     g=(l*16+m)%2;
     switch(g){
         case 0:
-            cout<<" this address is unicast\n";
+            cout<<" this address is Unicast\n";
             break;
         case 1:
-            cout<<" this address is multicast\n";
+            cout<<" this address is Multicast\n";
             break;
     }
 }
